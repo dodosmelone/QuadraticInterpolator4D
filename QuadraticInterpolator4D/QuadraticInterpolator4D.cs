@@ -305,8 +305,8 @@ namespace QuadraticInterplator4D
             lbPolyConcrete.Text = funcVal + " = "
                 + String.Format("{0:0.0000}", coefficients[0]) + " * " + arg1 + "^2"
                 + ((coefficients[1] >= 0) ? " + " : " - ") + String.Format("{0:0.0000}", Math.Abs(coefficients[1])) + " * " + arg2 + "^2\r\n"
-                + "      " + ((coefficients[2] >= 0) ? " + " : " - ") + String.Format("{0:0.0000}", Math.Abs(coefficients[2])) + " * " + arg2 + "^2"
-                + ((coefficients[3] >= 0) ? " + " : " - ") + String.Format("{0:0.0000}", Math.Abs(coefficients[3])) + " * " + arg3 + "^2\r\n"
+                + "      " + ((coefficients[2] >= 0) ? " + " : " - ") + String.Format("{0:0.0000}", Math.Abs(coefficients[2])) + " * " + arg3 + "^2"
+                + ((coefficients[3] >= 0) ? " + " : " - ") + String.Format("{0:0.0000}", Math.Abs(coefficients[3])) + " * " + arg4 + "^2\r\n"
                 + "      " + ((coefficients[4] >= 0) ? " + " : " - ") + String.Format("{0:0.0000}", Math.Abs(coefficients[4])) + " * " + arg1 + " * " + arg2
                 + ((coefficients[5] >= 0) ? " + " : " - ") + String.Format("{0:0.0000}", Math.Abs(coefficients[5])) + " * " + arg1 + " * " + arg3
                 + ((coefficients[6] >= 0) ? " + " : " - ") + String.Format("{0:0.0000}", Math.Abs(coefficients[6])) + " * " + arg1 + " * " + arg4 + "\r\n"
